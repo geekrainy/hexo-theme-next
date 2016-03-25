@@ -19,4 +19,10 @@
   </a>
 </div>
 
+<div class="upyun">
+  <a href="https://www.upyun.com" rel="nofollow" target="_blank">
+    <img src="{{ url_for(theme.images) }}/upyun.png" title="又拍云" alt="又拍云">
+  </a>
+</div>
+
 {% block footer %}{% endblock %}
