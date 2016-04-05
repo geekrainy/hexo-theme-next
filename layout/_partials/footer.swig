@@ -19,10 +19,18 @@
   </a>
 </div>
 
-<div class="upyun">
-  <a href="https://www.upyun.com" rel="nofollow" target="_blank">
-    <img src="{{ url_for(theme.images) }}/upyun.png" title="又拍云" alt="又拍云">
-  </a>
+<div class="cdn-info">
+  <div class="upyun">
+    <a href="https://www.upyun.com" rel="nofollow" target="_blank">
+      <img src="{{ url_for(theme.images) }}/upyun.png" title="又拍云" alt="又拍云">
+    </a>
+  </div>
+
+  <div class="qiniu">
+    <a href="https://portal.qiniu.com/signup?code=3ll7l3mlqsn6a" rel="nofollow" target="_blank">
+      <img src="{{ url_for(theme.images) }}/qiniu.png" title="七牛云存储" alt="七牛云存储">
+    </a>
+  </div>
 </div>
 
 {% block footer %}{% endblock %}
