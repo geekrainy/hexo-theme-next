@@ -12,10 +12,13 @@
 }
 
 .header-inner {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   overflow: hidden;
   padding: 0;
+  border: 1px solid #eee;
+  border-width: 0 1px 1px;
   width: 240px;
   background: white;
 
@@ -25,10 +28,12 @@
   +tablet() {
     position: relative;
     width: auto;
+    border: none;
   }
   +mobile() {
     position: relative;
     width: auto;
+    border: none;
   }
 }
 
@@ -56,6 +61,8 @@
 .content-wrap {
   float: right;
   box-sizing: border-box;
+  border: 1px solid #eee;
+  border-width: 0 1px 1px;
   padding: $content-desktop-padding;
   width: $content-desktop;
   background: white;
