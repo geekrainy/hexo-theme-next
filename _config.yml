@@ -285,6 +285,9 @@ mathjax:
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
+# Han Support docs: https://hanzi.pro/
+han: false
+
 # Swiftype Search API Key
 #swiftype_key:
 
@@ -479,8 +482,14 @@ fancybox: true
 # Canvas-nest
 canvas_nest: false
 
-#three_waves
+# three_waves
 three_waves: false
+
+# canvas_lines
+canvas_lines: false
+
+# canvas_sphere
+canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
@@ -539,11 +548,26 @@ vendors:
 
   # three
   three:
+
+  # three_waves
+  # https://github.com/jjandxa/three_waves
   three_waves:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_lines
+  canvas_lines:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_sphere
+  canvas_sphere:
 
   # Internal version: 1.0.0
   # https://github.com/zproo/canvas-ribbon
   canvas_ribbon:
+
+  # Internal version: 3.3.0
+  # https://github.com/ethantw/Han
+  han:
 
 
 
