@@ -36,6 +36,10 @@
           {{ list_categories() }}
         </div>
       </div>
+    {% elif page.type === 'douban' %}
+      <div class="douban-page">
+        <script type="text/javascript" src="http://www.douban.com/service/badge/rainylog/?selection=random&amp;picsize=medium&amp;hideself=on&amp;show=dolist&amp;n=20&amp;hidelogo=on&amp;cat=movie%7Cbook%7Cmusic&amp;columns=4"></script>
+      </div>
     {% else %}
       {{ page.content }}
     {% endif %}
