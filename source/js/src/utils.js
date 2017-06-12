@@ -8,13 +8,15 @@ NexT.utils = NexT.$u = {
     $('.content img')
       .not('[hidden]')
       .not('.group-picture img, .post-gallery img')
+      .not('.douban-page img')
       .each(function () {
         var $image = $(this);
         var imageTitle = $image.attr('title');
         var $imageWrapLink = $image.parent('a');
 
         if ($imageWrapLink.size() < 1) {
-          $imageWrapLink = $image.wrap('<a href="' + this.getAttribute('src') + '"></a>').parent('a');
+	        var imageLink = ($image.attr('data-original')) ? this.getAttribute('data-original') : this.getAttribute('src');
+          $imageWrapLink = $image.wrap('<a href="' + imageLink + '"></a>').parent('a');
         }
 
         $imageWrapLink.addClass('fancybox fancybox.image');
@@ -39,8 +41,9 @@ NexT.utils = NexT.$u = {
 
   lazyLoadPostsImages: function () {
     $('#posts').find('img').lazyload({
-      placeholder: '/images/loading.gif',
-      effect: 'fadeIn'
+      //placeholder: '/images/loading.gif',
+      effect: 'fadeIn',
+      threshold : 0
     });
   },
 
