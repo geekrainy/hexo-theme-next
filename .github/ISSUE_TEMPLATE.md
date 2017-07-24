@@ -1,34 +1,33 @@
-## ATTENTION!
-If you want to fast resolve your issue, **write it in English, please**. Not all contributors/collaborators know Chinese language and Google translate can't always give true translates on issues. Thanks!
+<!-- ATTENTION!
+If you want to fast resolve your issue, WRITE IT IN ENGLISH, please. Not all contributors/collaborators know Chinese language and Google translate can't always give true translates on issues. Thanks!
+You may delete this recomendations and use template which is placed below. 
+-->
 
-DELETE ALL THIS RECOMENDATIONS AND USE TEMPLATES WHICH PLACED BELOW DIVIDED LINE.
-***
-
-### Expected behavior (预期行为)
-
-
-### Actual behavior (实际行为)
+### Expected behavior <!-- (预期行为) -->
 
 
-### Steps to reproduce the behavior (重现步骤)
+### Actual behavior <!-- (实际行为) -->
 
 
-### NexT Information
+### Steps to reproduce the behavior <!-- (重现步骤) -->
+Link to demo site with this issue: N/A
+Link(s) to source code or any usefull link(s): N/A
 
-Add the  ✔  sign before an item which is affected by this behavior.
+### NexT Information <!-- (Check one with "x") -->
 
-NexT Version:
+**NexT Version:**
+```
+[ ] Master
+[ ] Latest Release
+[ ] Old version - 
+```
 
-  -  Master
-  -  Latest Release
-  -  Old version - 
+**NexT Scheme:**
+```
+[ ] All schemes
+[ ] Muse
+[ ] Mist
+[ ] Pisces
+```
 
-NexT Scheme:
-  -  All schemes
-  -  Muse
-  -  Mist
-  -  Pisces
-
-### Other Information (Like Browser, System, Screenshots)
-
-
+### Other Information <!-- (Like Browser, System, Screenshots) -->
